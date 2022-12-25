@@ -1,0 +1,341 @@
+/****** Global Styles ******/
+body {
+  background-color: #f9fafc;
+  color: #545454;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.content-wrapper {
+  margin: 0 auto;
+  width: 1200px;
+  overflow: auto;
+}
+
+.content-wrapper-one {
+  margin: 0 auto;
+  width: 1200px;
+  overflow: auto;
+}
+
+.content-wrapper-two {
+  margin: 0 auto;
+  width: 1200px;
+  overflow: auto;
+}
+
+
+/****** Header Styles ******/
+.homepage-hero {
+  background-image: url(../img/full-background.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100vh;
+}
+
+#logo img {
+  width: 50%;
+}
+
+#logo {
+  float: left;
+  width: 300px;
+  font-family: 'Lora', serif;
+  padding: 45px 25px;
+}
+
+nav {
+  float: right;
+  width: 800px;
+  padding: 55px 25px;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding-left: 50px;
+  text-decoration: none;
+  color: #f9fafc;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  opacity: 0.7;
+}
+
+#projects-navbar li a {
+  color: #991532;
+}
+
+header h2 {
+  color: #f9fafc;
+  font-size: 62px;
+  font-family: 'Lora', serif;
+  line-height: 80px;
+  clear: both;
+  padding: 100px 0;
+  text-align: center;
+}
+
+
+/****** About Styles ******/
+#about .content-wrapper {
+  padding: 80px 0;
+}
+
+#about h2 {
+  font-family: 'Lora', serif;
+  font-size: 32px;
+  padding: 0 50px;
+}
+
+#about p {
+  float: left;
+  width: 500px;
+  line-height: 40px;
+  font-size: 20px;
+  padding: 0 50px;
+}
+
+
+/****** Skill Styles ******/
+#skills {
+  background-color: #eef1f6;
+  text-align: center;
+}
+
+#skills .content-wrapper {
+  padding: 100px 0;
+}
+
+#skills .skill-list {
+  float: left;
+  width: 300px;
+  padding: 0 50px;
+}
+
+#skills h2 {
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  padding-bottom: 40px;
+}
+
+#skills h3 {
+  font-size: 24px;
+  line-height: 36px;
+  margin: 30px 0 20px 0;
+}
+
+#skills p {
+  font-size: 20px;
+  line-height: 40px;
+  text-align: justify;
+}
+
+
+/****** Contact Styles ******/
+#contact {
+  background-color: #991532;
+  color: #fff;
+}
+
+#contact .content-wrapper {
+  padding: 110px 0;
+}
+
+#contact .contact-image {
+  float: left;
+  width: 500px;
+  margin: 0 50px;
+}
+
+#contact #contact-img {
+  width: 600px;
+  height: 350px;
+  border: 10px solid #f9fafc;
+  box-sizing: border-box;
+}
+
+#contact .contact-info {
+  float: left;
+  width: 400px;
+  padding-left: 150px;
+}
+
+#contact h2 {
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+#contact h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+#email-header {
+  margin-bottom: 10px;
+}
+
+#social-header {
+  margin: 20px 0 5px 0;
+}
+
+#envelope {
+  padding-right: 10px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #fff;
+  font-size: larger;
+}
+
+.contact-info a:hover {
+  opacity: 0.7;
+}
+
+.contact-info i {
+  padding-right: 10px;
+}
+
+.contact-info ul {
+  padding: 0;
+}
+
+.contact-info ul li {
+  display: inline-block;
+}
+
+.contact-info ul i {
+  padding-right: 30px;
+}
+
+.contact-info i:hover,
+.contact-info ul i:hover {
+  opacity: 0.7;
+}
+
+
+/****** Projects Styles ******/
+#projects {
+  background-color: #eef1f6;
+  text-align: center;
+}
+
+#projects .content-wrapper-one {
+  padding-top: 50px;
+}
+
+#projects .content-wrapper-two {
+  padding: 50px 0 100px 0;
+}
+
+#projects .projects-list-one {
+  float: left;
+  width: 350px;
+  padding: 0 25px;
+}
+
+#projects .projects-list-two {
+  float: left;
+  width: 500px;
+  padding: 0 50px;
+  transition: transform .5s;
+}
+
+#projects .projects-list-one img {
+  width: 350px;
+  height: 200px;
+  border: 5px solid #991532;
+  box-sizing: border-box;
+  transition: transform .5s;
+}
+
+#projects .projects-list-one img:hover {
+  transform: scale(1.03);
+}
+
+#projects .projects-list-two img {
+  width: 500px;
+  height: 300px;
+  border: 5px solid #991532;
+  box-sizing: border-box;
+  transition: transform .5s;
+}
+
+#projects .projects-list-two img:hover {
+  transform: scale(1.03);
+}
+
+#projects h2 {
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  padding-bottom: 50px;
+}
+
+#projects h3 {
+  font-size: 24px;
+  line-height: 36px;
+  margin: 30px 0 20px 0;
+}
+
+#projects p {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+  margin: 0;
+}
+
+#projects .projects-list-one a,
+#projects .projects-list-two a {
+  text-decoration: none;
+}
+
+
+/****** Button Styles ******/
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #991532;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
