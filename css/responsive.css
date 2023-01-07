@@ -1,0 +1,28 @@
+/****** Responsive Projects Styles ******/
+@media screen and (max-width: 1024px) {
+  #projects .content-wrapper-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #projects .content-wrapper-two {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #projects .projects-list-one img {
+    width: 70vw;
+    height: 40vw;
+  }
+
+  #projects .projects-list-two img {
+    width: 70vw;
+    height: 40vw;
+  }
+
+}
+
+
+/****** Responsive About Styles ******/
